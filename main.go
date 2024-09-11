@@ -123,6 +123,6 @@ func main() {
 		inputCount -= v
 	}
 	if inputCount != 0 {
-		log.Fatalf("Ошибка: разделение чисел по каналам неверное: %d != %d\n", inputSum, sum)
+		log.Fatalf("Ошибка: разделение чисел по каналам неверное\n")
 	}
 }
